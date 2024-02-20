@@ -1,2 +1,42 @@
 
 /* Your CSS Code here. */
+#holder{
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+.item{
+	width:120px;
+	height:80px;
+	border:1px solid black;
+	font-size:30px;
+	font-weight:600;
+}
+#item1{
+	background-color:red;
+	order:6;
+}
+#item2{
+	background-color:blue;
+	order:7;
+}
+#item3{
+	background-color:green;
+	order:1;
+}
+#item4{
+	background-color:green;
+	order:2;
+}
+#item5{
+	background-color:green;
+	order:3;
+}
+#item6{
+	background-color:green;
+	order:4;
+}
+#item7{
+	background-color:green;
+	order:5;
+}
